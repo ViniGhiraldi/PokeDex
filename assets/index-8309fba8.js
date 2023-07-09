@@ -235,6 +235,10 @@ Error generating stack: `+i.message+`
         text-transform: uppercase;
         font-weight: 800;
         cursor: pointer;
+
+        &:hover{
+            background-color: ${({theme:e})=>e.color.secondary.main};
+        }
     }
 
     .search{
