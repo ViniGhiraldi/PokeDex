@@ -10,6 +10,6 @@
 
 ### Na Pokédex você tem mais de 1000 pokémons para explorar e conhecer! Ela conta com recursos de consulta em API externa, paginação, busca filtrada por nome (com uma solução para economizar nas consultas) e responsividade.
 
-## Esta aplicação está rodando no GitHub Pages, em tempo real!
+## Esta aplicação está rodando no GitHub Pages! Para ver a demo, acesse https://vinighiraldi.github.io/pokedex
 
 # Obrigado por Ler!
