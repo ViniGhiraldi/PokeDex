@@ -112,6 +112,10 @@ const Container = styled.div`
         text-transform: uppercase;
         font-weight: 800;
         cursor: pointer;
+
+        &:hover{
+            background-color: ${({theme}) => theme.color.secondary.main};
+        }
     }
 
     .search{
