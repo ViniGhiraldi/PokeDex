@@ -4,7 +4,7 @@ import { Home } from "../pages";
 export const AppRoutes = () => {
     return(
         <Routes>
-            <Route path='/' element={<Home/>}/>
+            <Route path='/pokedex' element={<Home/>}/>
         </Routes>
     );
 }

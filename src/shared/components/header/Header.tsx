@@ -40,7 +40,7 @@ export const Header = () => {
     return(
         <Container>
             {themeContext && innerWidth > themeContext.screens.sm && (
-                <NavLink to='/#main' className='link_logo logo_hover'>
+                <NavLink to='/pokedex#main' className='link_logo logo_hover'>
                     <h1 className='logo logo_hover'>PoKéMoN</h1>
                 </NavLink>
             )}
