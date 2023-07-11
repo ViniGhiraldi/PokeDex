@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom"
 import { AppRoutes } from "./routes"
-import { Header, Wrapper } from "./shared/components"
+import { Footer, Header, Wrapper } from "./shared/components"
 import { PokemonProvider } from "./shared/contexts/PokemonContext"
 
 export const App = () => {
@@ -11,6 +11,7 @@ export const App = () => {
           <Header/>
           <AppRoutes/>
         </Wrapper>
+        <Footer/>
       </PokemonProvider>
     </BrowserRouter>
   )

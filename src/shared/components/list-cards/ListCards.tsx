@@ -41,7 +41,6 @@ const Card = styled.div<{backgroundColor: string}>`
 
     &:hover{
         box-shadow: ${({theme}) => theme.shadow.directions.down};
-        border-radius: ${({theme}) => theme.border.radius.big};
     }
 
     &:hover img{

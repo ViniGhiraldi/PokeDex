@@ -9,10 +9,10 @@ export const Wrapper = styled.div<{flexDirection: 'column' | 'row'; minheightful
         let paddingX = '0';
         let paddingY = '0';
         if(usePaddingX){
-            paddingX = theme.spacing.pad.small;
+            paddingX = theme.spacing.pad.medium;
         }
         if(usePaddingY){
-            paddingY = theme.spacing.pad.small;
+            paddingY = theme.spacing.pad.medium;
         }
 
         return `${paddingY} ${paddingX}`;
