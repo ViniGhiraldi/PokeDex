@@ -75,6 +75,7 @@ const FooterElementBox = styled.div`
     align-items: center;
     gap: ${({theme}) => theme.spacing.gap.medium};
     border-top: solid 1px #ffcb05;
+    padding-top: ${({theme}) => theme.spacing.pad.small};
 
     h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

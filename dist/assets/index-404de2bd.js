@@ -290,6 +290,7 @@ Error generating stack: `+i.message+`
     align-items: center;
     gap: ${({theme:e})=>e.spacing.gap.medium};
     border-top: solid 1px #ffcb05;
+    padding-top: ${({theme:e})=>e.spacing.pad.small};
 
     h1{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
